@@ -7,7 +7,7 @@ comments: false
 image:
   feature: cover.jpg
   credit:
-  creditlink: 
+  creditlink:
 ---
 
 {% for post in paginator.posts %}
@@ -34,8 +34,11 @@ image:
     {% endif %}
   </header>
   <div class="entry-content">
-    {{ post.content }}
-  </div><!-- /.entry-content -->
+    {{ post.content | split:'<!--break-->' | first }}
+    {% if post.content contains '<!--break-->' %}
+      <br/>
+      <i><a href="{{ post.url }}">read more...</a></i>
+    {% endif %}  </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
 
