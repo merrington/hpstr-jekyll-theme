@@ -10,11 +10,11 @@ url:
 owner:
   name:           Mike Errington
   avatar:         my_avatar.jpeg
-  bio:            "Music-loving, motorcycle-riding software developer currently interested in Elixir/Phoenix and Meteor. Based in Toronto."
+  bio:            "Music-loving, motorcycle-riding software developer based in Toronto."
   email:          mike.errington@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
-  facebook:
+  facebook:       mike.errington
   github:         merrington
   stackexchange:
   linkedin:       mikeerrington
