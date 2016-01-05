@@ -1,9 +1,4 @@
 # Menu navigation links
 
-#- title: Theme Setup
-#  url: /theme-setup/
-
-#- title: External Link
-#  url: http://mademistakes.com
 - title: Résumé
   url: /cv/cv.html
