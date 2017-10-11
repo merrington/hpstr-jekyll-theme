@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import profilePicture from '../images/me.jpeg';
+import resumePdf from '../resume.pdf';
 
 const IndexPage = () => (
   <div>
@@ -67,10 +68,26 @@ const IndexPage = () => (
               </figure>
             </div>
 
-            <div className="card-content">
-              <a href="mailto:mike.errington@gmail.com">
-                <i className="fa fa-envelope" /> Email
-              </a>
+            <div className="card-content" style={{ padding: 0 }}>
+              <div className="box" style={{ marginBottom: 0 }}>
+                <a href="mailto:mike.errington@gmail.com">
+                  <i className="fa fa-envelope" /> Email
+                </a>
+              </div>
+              <div className="box">
+                <div className="columns">
+                  <div className="column">
+                    <a href="/resume/">
+                      <i className="fa fa-file-text" /> Resume
+                    </a>
+                  </div>
+                  <div className="column has-text-right">
+                    <a href="/resume/resume.pdf">
+                      <i className="fa fa-file-pdf-o" /> pdf
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
