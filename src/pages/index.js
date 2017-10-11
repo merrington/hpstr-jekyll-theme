@@ -26,7 +26,7 @@ const IndexPage = () => (
           </p>
           <br />
           <p>
-            During my time at IBM I have worked in multiple roles. From customer
+            During my time at IBM I have worked in multiple roles; from customer
             facing positions like software support and services consulting -
             working on solving customer issues and multiple side projects to
             improve team processes - to development roles including being a team
@@ -36,10 +36,10 @@ const IndexPage = () => (
           <br />
           <p>
             Outside of work I have a variety of interests. I'm an avid
-            music-lover - particularly enjoying live shows and working on
-            growing my vinyl collection. My choice of drink is a nice craft
-            beers - I attend beer fests throughout the year in Toronto, as well
-            as developing the "BEVS" app to assist with selecting the right brew
+            music-lover, particularly enjoying live shows and working on growing
+            my vinyl collection. My choice of drink is a nice craft beer, I
+            attend beer fests throughout the year in Toronto, as well as
+            developing the "BEVS" app to assist with selecting the right brew
             when out with friends (see the <Link to="/projects">Projects</Link>{' '}
             page for more information!) and am hoping to try my hand at
             homebrewing when I can find the time.
@@ -47,7 +47,7 @@ const IndexPage = () => (
           <br />
           <p>
             In the last few years I have also gotten into motorcycles and most
-            recently woodworking - having previously torn down and built a new
+            recently woodworking, having previously torn down and built a new
             deck, and more recently completed a coffee table build.
           </p>
           <br />
