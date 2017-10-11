@@ -77,12 +77,12 @@ const IndexPage = () => (
               <div className="box">
                 <div className="columns">
                   <div className="column">
-                    <a href="/resume/">
+                    <a href={`${__PATH_PREFIX__}/resume/`}>
                       <i className="fa fa-file-text" /> Resume
                     </a>
                   </div>
                   <div className="column has-text-right">
-                    <a href="/resume/resume.pdf">
+                    <a href={`${__PATH_PREFIX__}/resume/resume.pdf`}>
                       <i className="fa fa-file-pdf-o" /> pdf
                     </a>
                   </div>
