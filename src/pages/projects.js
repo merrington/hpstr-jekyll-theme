@@ -1,11 +1,14 @@
 import React from 'react';
+import bevsSS from '../images/bevs-ss.png';
+import wordbrainiacSS from '../images/elixir.png';
+import driverlogSS from '../images/couchDB.png';
 
 const projects = [
   {
     name: 'BEVS',
     url: 'https://bevs.beer',
     github: 'https://github.com/merrington/bevs',
-    image: '/static/images/bevs-ss.png',
+    image: bevsSS,
     description:
       'What started out as an idea among friends on how to settle frequent disputes over what pitcher of beer to split eventually became "BEVS" - the Beer Experience Voting System. Built using Meteor (Node.js with ES6), Mongo and React, BEVS provides a reactive/live-updating voting system with some unique customization options.',
     tags: ['meteor', 'node', 'es6', 'mongo', 'react']
@@ -13,7 +16,7 @@ const projects = [
   {
     name: 'Wordbrainiac',
     github: 'https://github.com/merrington/wordbrainiac',
-    image: '/static/images/elixir.png',
+    image: wordbrainiacSS,
     description:
       'A simple tool that scans a dictionary file to assist in providing possible solutions to WordBrain puzzles. This was built while going through Elixir tutorials to learn the basics of the language.',
     tags: ['elixir']
@@ -21,7 +24,7 @@ const projects = [
   {
     name: 'DriverLog',
     github: 'https://github.com/merrington/driverlog',
-    image: '/static/images/couchDB.png',
+    image: driverlogSS,
     description:
       'To help solve issues with carpooling, DriverLog was made as a simple means of keeping track of accumulated points using a scoring system based on where the car is parked and the current weather. This was built  as a simple demo to see the functionality of a CouchApp - a webapp that runs within a CouchDB/Cloudant database',
     tags: ['couchdb', 'jquery', 'moustache']

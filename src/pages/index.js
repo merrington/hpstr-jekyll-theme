@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import profilePicture from '../images/me.jpeg';
 
 const IndexPage = () => (
   <div>
@@ -62,7 +63,7 @@ const IndexPage = () => (
           <div className="card">
             <div className="card-image">
               <figure className="image">
-                <img src="/static/images/me.jpeg" />
+                <img src={profilePicture} />
               </figure>
             </div>
 
